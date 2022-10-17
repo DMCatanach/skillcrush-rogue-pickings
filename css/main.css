@@ -1,13 +1,23 @@
 /** BASE STYLES **/
 
 body {
-	background-color: purple;
+	
 }
 
 /** GRID **/ 
 
-.full-width {}
+.full-width {
+	margin:  0 auto;
+	overflow: auto;
+	width:  1200px;
+}
 
-.half-width {}
+.half-width {
+	float: left; 
+	width: 600px;
+}
 
-.third-width {}
+.third-width {
+	float: left; 
+	width: 400px;
+}
