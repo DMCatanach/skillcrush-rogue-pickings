@@ -6,18 +6,20 @@ body {
 
 /** GRID **/ 
 
-.full-width {
+.content-wrapper {
 	margin:  0 auto;
 	overflow: auto;
 	width:  1200px;
 }
 
-.half-width {
+/*.half-width {
 	float: left; 
 	width: 600px;
+	margin: 0 auto;
+	overflow: auto;
 }
 
 .third-width {
 	float: left; 
 	width: 400px;
-}
+}*/
