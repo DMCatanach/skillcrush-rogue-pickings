@@ -4,12 +4,45 @@ body {
 	
 }
 
-/** GRID **/ 
-
 .content-wrapper {
 	margin:  0 auto;
 	overflow: auto;
 	width:  1200px;
+}
+
+header h1 {
+	width: 300px;
+	float: left;
+}
+
+header nav {
+	width: 300px;
+	float: right;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+#menu, #reviews, #contact {
+	box-sizing: border-box;
+	float: left;
+}
+
+#menu {
+	width: 350px;
+}
+
+#reviews {
+	width: 500px;
+}
+
+#contact {
+	width: 350px;
+}
+
+footer {
+	text-align: center;
 }
 
 /*.half-width {
