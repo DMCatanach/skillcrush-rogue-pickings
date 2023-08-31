@@ -24,35 +24,25 @@ header nav ul li {
 	display: inline-block;
 }
 
-#menu, #reviews, #contact {
+.section-one {
+	width: 350px;
 	box-sizing: border-box;
 	float: left;
 }
 
-#menu {
-	width: 350px;
-}
-
-#reviews {
+.section-two {
 	width: 500px;
+	box-sizing: border-box;
+	float: left;
 }
 
-#contact {
+.section-three {
 	width: 350px;
+	box-sizing: border-box;
+	float: left;
 }
 
 footer {
 	text-align: center;
 }
 
-/*.half-width {
-	float: left; 
-	width: 600px;
-	margin: 0 auto;
-	overflow: auto;
-}
-
-.third-width {
-	float: left; 
-	width: 400px;
-}*/
