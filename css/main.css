@@ -90,27 +90,58 @@ header nav ul li a {
 
 /** BOTTOM SECTION **/
 
+.bottom-section .content-wrapper {
+	border-top: 5px solid #EEE;
+	border-bottom: 5px solid #EEE;
+}
+
+.bottom-section h3 {
+	margin: 0; 
+	padding: 30px 0; 
+}
+
+.section-one, .section-two, .section-three {
+	box-sizing: border-box;
+	float: left; 
+	margin: 0; 
+	padding: 0 40px;
+}
+
 .section-one {
 	width: 350px;
-	box-sizing: border-box;
-	float: left;
 }
 
 .section-two {
 	width: 500px;
-	box-sizing: border-box;
-	float: left;
+	border-left: 5px solid #EEE;
+	border-right: 5px solid #EEE;
 }
 
 .section-three {
 	width: 350px;
-	box-sizing: border-box;
-	float: left;
+}
+
+.menu-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+.menu-list li {
+	line-height: 36px;
+	color: #45610E; 
 }
 
 /** FOOTER STYLES **/
 
 footer {
 	text-align: center;
+	margin-top: 8px;
+}
+
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #45610E; 
+	font-size: 14px;
 }
 
